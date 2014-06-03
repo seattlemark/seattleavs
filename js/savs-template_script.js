@@ -1,7 +1,6 @@
 var top_menu_height = 0;
 jQuery(function($) {
         $(document).ready( function() {
-
             // load google map
         var script = document.createElement('script');
         script.type = 'text/javascript';
