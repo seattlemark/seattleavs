@@ -269,6 +269,7 @@ table {
   .navbar {
     display: none;
   }
+ 
   .table td,
   .table th {
     background-color: #fff !important;
@@ -401,12 +402,7 @@ h6,
   font-weight: 600;
   line-height: 1.1;
   color: inherit;
-      text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
-  
+ 
 }
 
 h1 small,
@@ -4496,7 +4492,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   float: left;
   padding: 15px 15px;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 28px;
 }
 
 .navbar-brand:hover,
