@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .top-menu {
-    min-height:70px;
+    min-height:50px;
     background-color:#ffffff;
     z-index: 5000;
     width:100%;
@@ -53,12 +53,12 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .top-menu .navbar-toggle {
-    margin-top: 38px;
+    margin-top: 58px;
 }
 
 .top-menu .navbar-brand {
-    padding: 0;
-    margin: 15px 0 0 0;
+    padding: 5px;
+    margin: opx 0 0 0;
 }
 
 #slider_container {
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 /* ------ Welcome & Slogan ------ */
 .welcome {
-	margin-top: 252px;
+	margin-top: 160px;
     border-bottom: 1px solid #cccccc;
     min-height: 230px;
 }
@@ -333,6 +333,11 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     margin-top: 20px;
 }
 
+.mast p{
+	color: #285E8E;
+	font-size:large;
+	
+}
 #contact {
 	margin-top:100px; 
 	border-top: 1px solid #cccccc; 
