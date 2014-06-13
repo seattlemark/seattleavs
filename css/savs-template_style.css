@@ -65,10 +65,10 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 	background-color: #AAA;
 }
 
-.navbar .container{
+.navbar-header {
 	height: 150px;
-	
 }
+
 
 .socialmedia {
 	position: fixed;
