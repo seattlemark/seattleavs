@@ -617,7 +617,9 @@ ul.project-gallery  li  a img:hover {
     .btn-read-more {
             float:right;
             margin-bottom :40px; 
-      }
+     }
+	 
+
 }
 
 @media (max-width: 380px) {
@@ -772,3 +774,12 @@ ul.project-gallery  li  a img:hover {
 	margin-top: 100px;
 }
 	
+@media (max-width: 768px) {
+	#nav-bar ul ul {
+		position :static;
+		background-color: white;
+		color: white;
+		padding-left: 20px;
+		width: auto;
+	 }
+}
