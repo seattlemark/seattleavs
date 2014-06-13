@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .navbar-default {
     background-color:#fff;
     border:none;
-	box-shadow: 0 8px 6px -6px grey;
+	box-shadow: 0 6px 6px -6px grey;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -231,10 +231,6 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     min-height:590px;
     color:#ffffff;
 
-}
-.line-header {
-    margin-top:100px;
-    margin-bottom:80px;
 }
 
 .member-thumb:hover .thumb-overlay {
@@ -621,7 +617,9 @@ ul.project-gallery  li  a img:hover {
     .btn-read-more {
             float:right;
             margin-bottom :40px; 
-      }
+     }
+	 
+
 }
 
 @media (max-width: 380px) {
@@ -737,4 +735,51 @@ ul.project-gallery  li  a img:hover {
 }
 #social_side_links li:nth-child(5) {
     background-image: url('images/youtube.png');
+}
+
+
+#nav-bar ul ul {
+	display: none;
+	position: absolute;
+	width: 127px;
+	list-style-type: none;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	left: 0px;
+}
+
+.nav li ul li a {
+	color: #777;
+}
+
+#nav-bar ul li ul li {
+	padding: 5px;
+}
+
+#nav-bar ul li:hover > a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#nav-bar ul li:hover {
+	background-color: #ff7600;
+}
+
+#nav-bar ul li:hover > ul {
+	display: block;
+}
+
+#projectors, #lighting, #video, #audio, #staging, #gallery {
+	margin-top: 100px;
+}
+	
+@media (max-width: 768px) {
+	#nav-bar ul li:hover > ul {
+		display: none;
+	}
+	#nav-bar ul li span{
+		display:none;
+	}
+	
 }
