@@ -65,10 +65,10 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 	background-color: #AAA;
 }
 
-.navbar .container{
+.navbar-header {
 	height: 150px;
-	
 }
+
 
 .socialmedia {
 	position: fixed;
@@ -176,6 +176,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .navbar-default {
     background-color:#fff;
     border:none;
+	box-shadow: 0 8px 6px -6px grey;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -306,6 +307,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .project-gallery li {
     margin:15px;
+	display: inline-block;
 }
 
 .txt_darkgrey {
@@ -498,6 +500,7 @@ ul.project-gallery  li  a img:hover {
     margin:0 0 0 0;
     margin-top:30px;
     margin-left: -40px;
+	text-align: center;
 }
 .project-gallery li {     
     list-style:none;
