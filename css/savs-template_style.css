@@ -775,11 +775,11 @@ ul.project-gallery  li  a img:hover {
 }
 	
 @media (max-width: 768px) {
-	#nav-bar ul ul {
-		position :static;
-		background-color: white;
-		color: white;
-		padding-left: 20px;
-		width: auto;
-	 }
+	#nav-bar ul li:hover > ul {
+		display: none;
+	}
+	#nav-bar ul li span{
+		display:none;
+	}
+	
 }
