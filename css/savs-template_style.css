@@ -530,6 +530,11 @@ ul.project-gallery  li  a img:hover {
 	margin-bottom:80px;
 }
 
+.rentaldropdown {
+	
+	
+}
+
 .rentals_sales_box {
 	margin-left: -12px;
 }
@@ -572,7 +577,7 @@ ul.project-gallery  li  a img:hover {
     }
 	
 	.socialmedia {
-		position: static;
+		position: fixed;
 		list-style: none;
 		padding-left: 0;
 	}
