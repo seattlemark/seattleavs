@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .top-bar {
-	min-height: 40px;
+	min-height: 50px;
 	background-color: #ffffff;
 }
 
@@ -50,17 +50,17 @@ h1, h2, h3, h4, h5, h6, span, p {
 	width: 100%;
 }
 
-.stuckMenu {
+.fixed-menu {
 	position: fixed;
 	top: 0px;
 }
 
 .top-menu .navbar-toggle {
-	margin-top: 58px;
+	margin-top: 50px;
 }
 
 .top-menu .navbar-brand {
-	padding: 0;
+	padding: 3px;
 	margin: 0px 0 0 0;
 }
 
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .navbar-header {
-	height: 150px;
+	height: 138px;
 }
 
 .socialmedia {
@@ -83,9 +83,9 @@ h1, h2, h3, h4, h5, h6, span, p {
 	padding: 2.5px;
 }
 
-/* ------ Welcome & Slogan ------ */
-.welcome {
-	margin-top: 160px;
+/* ------ aboutus & Slogan ------ */
+.aboutus {
+	margin-top: 130px;
 	border-bottom: 1px solid #cccccc;
 	min-height: 230px;
 }
