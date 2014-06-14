@@ -455,15 +455,15 @@ a:hover .social-icon-linkedin {
     background: url('../images/social-icon-linkedin-over.png') no-repeat;
 }
 
-.social-icon-dribbble {
-    background: url('../images/social-icon-dribbble.png') no-repeat;
+.social-icon-gplus {
+    background: url('../images/social-icon-gplus.png') no-repeat;
     width: 42px;
     height: 42px;
     display: block;
 }
 
-a:hover .social-icon-dribbble {
-    background: url('../images/social-icon-dribbble-over.png') no-repeat;
+a:hover .social-icon-gplus {
+    background: url('../images/social-icon-gplus-over.png') no-repeat;
 }
 
 ul.project-gallery  li  a img:hover {
