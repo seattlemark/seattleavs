@@ -16,8 +16,6 @@ body {
 	font-size: 12px;
 	font-weight: 300;
 	font-style: normal;
-	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-	-webkit-text-size-adjust: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, span, p {
@@ -25,17 +23,13 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 * {
-	-webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
 	-moz-border-radius: 0 !important;
 	border-radius: 0 !important;
 }
 
 .savs-template_clear {
 	clear: both;
-}
-
-.height30 {
-	height: 30px;
 }
 
 .top-bar {
@@ -62,10 +56,6 @@ h1, h2, h3, h4, h5, h6, span, p {
 .top-menu .navbar-brand {
 	padding: 3px;
 	margin: 0px 0 0 0;
-}
-
-#slider_container {
-	background-color: #AAA;
 }
 
 .navbar-header {
@@ -98,11 +88,6 @@ h1, h2, h3, h4, h5, h6, span, p {
 	color: #333333;
 }
 
-.service {
-	margin-bottom: 100px;
-	margin-top: 100px;
-}
-
 .service-item {
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 10px;
@@ -117,18 +102,10 @@ h1, h2, h3, h4, h5, h6, span, p {
 	color: #929292;
 }
 
-.subheader {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
-	margin-top: 12px;
-	font-size: 24px;
-	color: #e67e22;
-}
-
 .btn-orange {
 	background-color: #ff7600;
 	border-bottom: 2px solid #d35400;
-	-webkit-border-radius: 0;
+	border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
 	color: #ffffff;
@@ -136,20 +113,6 @@ h1, h2, h3, h4, h5, h6, span, p {
 
 .btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
 	background-color: #d35400;
-	color: #ffffff;
-}
-
-.btn-green {
-	background-color: #2ecc71;
-	border-bottom: 2px solid #27ae60;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-	color: #ffffff;
-}
-
-.btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .open .dropdown-toggle.btn-green {
-	background-color: #27ae60;
 	color: #ffffff;
 }
 
@@ -193,13 +156,6 @@ h1, h2, h3, h4, h5, h6, span, p {
 	display: inline-block;
 }
 
-.header-orange {
-	background-color: #ff7600;
-	min-width: 298px;
-	height: 67px;
-	color: #fff;
-}
-
 .savs_hr {
 	border: 1px solid #fff;
 	width: 39.5%;
@@ -217,42 +173,6 @@ h1, h2, h3, h4, h5, h6, span, p {
 
 .hr_gray {
 	border: 1px solid #cccccc;
-}
-
-.savs {
-	background: url('../images/background.png');
-	font-family: 'Open Sans', sans-serif;
-	min-height: 590px;
-	color: #ffffff;
-}
-
-.member-thumb:hover .thumb-overlay {
-	transition: all 0.3s ease-in-out 0s;
-	visibility: visible;
-	opacity: 1;
-}
-
-.member-thumb {
-	position: relative;
-	overflow: hidden;
-}
-
-.member-thumb .thumb-overlay {
-	background-color: rgba(220, 157, 102, 0.8);
-	position: absolute;
-	visibility: hidden;
-	padding-top: 35%;
-	padding-left: 25%;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	right: 0;
-	top: 0;
-}
-
-.thumb-overlay a {
-	float: left;
-	margin-right: 5px;
 }
 
 .project-box {
@@ -316,11 +236,6 @@ h1, h2, h3, h4, h5, h6, span, p {
 	margin-top: 10px;
 }
 
-.savs_box  div {
-	text-align: center;
-	padding-top: 100px;
-}
-
 .span_rentals_sales {
 	margin-bottom: 80px;
 }
@@ -351,11 +266,6 @@ h1, h2, h3, h4, h5, h6, span, p {
 	height: 378px;
 }
 
-.head_contact {
-	padding-bottom: 80px;
-	margin-bottom: 0;
-}
-
 .contact_right img {
 	margin-right: 5px;
 }
@@ -376,14 +286,6 @@ h1, h2, h3, h4, h5, h6, span, p {
 	float: right;
 }
 
-.partners {
-	border-top: 2px solid #cccccc;
-}
-
-.partners .partner-item {
-	margin-bottom: 5px;
-}
-
 .footer {
 	border-top: 2px solid #cccccc;
 	margin-top: 100px;
@@ -394,7 +296,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 	margin-bottom: 20px;
 }
 
-.footer_bottom_content {
+.footer_bottom_service {
 	margin: auto;
 	margin-bottom: 30px;
 	font-size: 14px;
@@ -460,25 +362,6 @@ ul.project-gallery  li  a img:hover {
 	border: 3px solid #ff7600;
 }
 
-.gallery-category a {
-	color: #333333;
-}
-
-.gallery-category a.active {
-	color: #e67e22;
-	text-decoration: none;
-}
-
-.gallery-category a:focus {
-	color: #e67e22;
-	text-decoration: none;
-}
-
-.gallery-category a:hover {
-	color: #e67e22;
-	text-decoration: none;
-}
-
 .link_orange:hover {
 	text-decoration: none;
 }
@@ -506,31 +389,17 @@ ul.project-gallery  li  a img:hover {
 }
 
 .form-control {
-	-webkit-border-radius: 0;
+	border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
-	-webkit-box-shadow: none;
+	box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
 	font-style: italic;
 }
 
-.btn_loadmore {
-	margin-top: 30px;
-	margin-bottom: 80px;
-}
-
-.rentaldropdown {
-
-}
-
-.desc p {
-	margin: 0px;
-	padding: 0px;
-}
-
 .rentals_sales_box {
-	margin-left: -12px;
+	margin-left: 12px;
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -546,28 +415,9 @@ ul.project-gallery  li  a img:hover {
 	.service-item-header {
 		padding: 16px 10px 20px;
 	}
-
-	.header-orange {
-		min-width: 230px;
-	}
-
-	.savs_box, .savs_box_over {
-		height: 220px;
-		width: 220px;
-	}
-
 }
 
 @media (max-width: 991px) {
-	.savs-inner {
-		margin-top: 20px;
-		margin-bottom: 20px;
-	}
-
-	.btn-read-more {
-		float: right;
-		margin-bottom: 40px;
-	}
 
 	.socialmedia {
 		position: fixed;
@@ -580,9 +430,6 @@ ul.project-gallery  li  a img:hover {
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
-	.member-thumb .thumb-overlay {
-		padding-left: 30%;
-	}
 	.project-box, .project-overlay {
 		height: 130px;
 		width: 130px;
@@ -606,21 +453,9 @@ ul.project-gallery  li  a img:hover {
 }
 
 @media (max-width: 768px) {
-	.member-thumb .thumb-overlay {
-		padding-left: 40%;
-	}
-	.btn-read-more {
-		float: right;
-		margin-bottom: 40px;
-	}
-
 }
 
 @media (max-width: 380px) {
-	.member-thumb .thumb-overlay {
-		padding-left: 30%;
-	}
-
 	.project-box, .project-overlay {
 		height: 90px;
 		width: 90px;
@@ -630,10 +465,6 @@ ul.project-gallery  li  a img:hover {
 		font-size: 16px;
 		padding: 23px 10px 22px;
 	}
-	.header-orange {
-		min-width: 0px;
-	}
-
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -649,9 +480,6 @@ ul.project-gallery  li  a img:hover {
 }
 
 @media (min-width: 585px) and (max-width: 683px) {
-	.member-thumb .thumb-overlay {
-		padding-left: 25%;
-	}
 	.savs_hr {
 		width: 30%;
 	}

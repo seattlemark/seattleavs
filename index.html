@@ -34,18 +34,23 @@
 		<script type="text/javascript" src="js/jssor.utils.js"></script>
 		<script type="text/javascript" src="js/jssor.slider.js"></script>
 		<script type="text/javascript" src="js/savs-slider.js"></script>
-		<script src="js/bootstrap.min.js" type="text/javascript"></script>
-		<script src="js/colorbox/jquery.colorbox-min.js"  type="text/javascript"></script>
-		<script src="js/savs-template_script.js"  type="text/javascript"></script>
 
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+		<!-- Colorbox JS -->
+		<script src="js/colorbox/jquery.colorbox-min.js"  type="text/javascript"></script>
+
+		<!-- Seattle AV Source JS -->
+		<script src="js/savs.script.js"  type="text/javascript"></script>
 
 	</head>
+
 	<body>
-
 		<!-- Top of Page -->
-		<div class="top-bar" id="top">
+		<nav class="top-bar" id="top">
 
-			<!-- Stuck Menu -->
+			<!-- Fixed Menu -->
 			<div class="top-menu fixed-menu">
 
 				<!-- Outer Container for Fixed Navigation -->
@@ -75,9 +80,11 @@
 										<a href="#about" data-toggle="dropdown" class="dropdown-toggle">ABOUT <span class="caret"></span></a>
 										<ul class="dropdown-menu">
 											<li>
+												<a href="#services">SERVICES</a>
+											</li>
+											<li>
 												<a href="#testimonials">TESTIMONIALS</a>
 											</li>
-
 										</ul>
 									</li>
 									</li>
@@ -114,7 +121,7 @@
 					</div>
 				</div><!-- End Nav -->
 			</div><!-- End fixed-menu -->
-		</div>
+		</nav>
 
 		<!-- JSSOR Full Width Slider -->
 		<div id="slider1_container" style="position: relative; margin: 0 auto;
@@ -181,92 +188,85 @@
 		<div id="about" >
 			<div class="aboutus">
 				<div class="container">
-					<div class="slogan text-center">
-						<span class="txt_darkgrey">Welcome to </span><span class="txt_orange"><b>Seattle AV Services</b></span>
-						<div class="txt_slogan">
-							<i style="font-size: 16px;">Seattle's premier supplier of A/V equipment rentals for projection, lighting, video, audio, and staging, pipe and drapery</i>
-						</div>
-						<div class="content-section">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-12 col-sm-12">
+					<div class="row">
+						<div class="slogan text-center">
+							<span class="txt_darkgrey">Welcome to </span><span class="txt_orange"><b>Seattle AV Services</b></span>
+							<div class="txt_slogan">
+								<i style="font-size: 16px;">Seattle's premier supplier of A/V equipment rentals for projection, lighting, video, audio, and staging, pipe and drapery</i>
+							</div>
+							<div class="content-section">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12 col-sm-12">
 
-										<div class="service-item">
-											<p>
-												Seattle Audio-Video Source is a cooperation of Data / Video Projection, Lighting,
-												Sound and AV Labor Specialists in the Audio-Video Industry. Doug Kennelly went
-												in business for himself April 15th, 1980 and throughout the years, Doug Kennelly
-												has worked with many business owners and the idea of creating this co-operative
-												was established to provide our clients with the best in Services, Equipment
-												and discounted AV Rental Pricing.
-											</p>
+											<div class="service-item">
+												<p>
+													Seattle Audio-Video Source is a cooperation of Data / Video Projection, Lighting,
+													Sound and AV Labor Specialists in the Audio-Video Industry. Doug Kennelly went
+													in business for himself April 15th, 1980 and throughout the years, Doug Kennelly
+													has worked with many business owners and the idea of creating this co-operative
+													was established to provide our clients with the best in Services, Equipment
+													and discounted AV Rental Pricing.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End aboutus -->
+
+							<!-- Services -->
+							<div id="services">
+								<div class="container" style="font-size: 16px;">
+									<div class="row">
+
+										<div class="col-md-3 col-sm-3">
+											<div class="service-item">
+												<a href="#projectors"><h2>Data Projection</h2></a>
+												<p>
+													Have data projection requirements? SeattleAVS has you covered. From short throw at the end of a conference table to scaffolding mounted projection for a convention with 500 people, we have the projectors, screens, cables, connectivity and knowledgable technicians to do the job right the first time.
+												</p>
+											</div>
+										</div>
+
+										<div class="col-md-3 col-sm-3">
+											<div class="service-item">
+												<span class="service-icon second"></span>
+												<a href="#lighting"><h2>Lighting</h2></a>
+												<p>
+													We create some awesome environments. Whether you need ambient back lighting for an auction or stage lighting for a concert, we have the design skills, equipment and manpower to expertly serve your needs.
+												</p>
+											</div>
+										</div>
+
+										<div class="col-md-3 col-sm-3">
+											<div class="service-item">
+												<span class="service-icon third"></span>
+												<a href="#audio"><h2>Audio</h2></a>
+												<p>
+													We have a full line of custom professional pro-aodio reinforcement solutions from small public address systems to full size sound systems for auctions, concerts, conferences and conventions.
+												</p>
+											</div>
+										</div>
+
+										<div class="col-md-3 col-sm-3">
+											<div class="service-item">
+												<span class="service-icon fourth"></span>
+												<a href="#staging"><h2>Staging / Drapery</h2></a>
+												<p>
+													We have staging, drapery and pipe (stands) to make your event look clean, polished and professional. Dress up your auction tables with lighting and drapery for an unforgettable look and feel.
+												</p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<!-- End aboutus -->
-
-						<!-- Services -->
-						<div id="services" class="content-section">
-							<div class="container" style="font-size: 16px;">
-								<div class="row">
-									<!-- /.col-md-3 -->
-									<div class="col-md-3 col-sm-3">
-										<div class="service-item">
-											<a href="#projectors"><h2>Data Projection</h2></a>
-											<p>
-												Have data projection requirements? SeattleAVS has you covered. From short throw at the end of a conference table to scaffolding mounted projection for a convention with 500 people, we have the projectors, screens, cables, connectivity and knowledgable technicians to do the job right the first time.
-											</p>
-										</div>
-										<!-- /.service-item -->
-									</div>
-
-									<!-- /.col-md-3 -->
-									<div class="col-md-3 col-sm-3">
-										<div class="service-item">
-											<span class="service-icon second"></span>
-											<a href="#lighting"><h2>Lighting</h2></a>
-											<p>
-												We create some awesome environments. Whether you need ambient back lighting for an auction or stage lighting for a concert, we have the design skills, equipment and manpower to expertly serve your needs.
-											</p>
-										</div>
-										<!-- /.service-item -->
-									</div>
-									<!-- /.col-md-3 -->
-									<div class="col-md-3 col-sm-3">
-										<div class="service-item">
-											<span class="service-icon third"></span>
-											<a href="#audio"><h2>Audio</h2></a>
-											<p>
-												We have a full line of custom professional pro-aodio reinforcement solutions from small public address systems to full size sound systems for auctions, concerts, conferences and conventions.
-											</p>
-										</div>
-										<!-- /.service-item -->
-									</div>
-									<!-- /.col-md-3 -->
-									<div class="col-md-3 col-sm-3">
-										<div class="service-item">
-											<span class="service-icon fourth"></span>
-											<a href="#staging"><h2>Staging / Drapery</h2></a>
-											<p>
-												We have staging, drapery and pipe (stands) to make your event look clean, polished and professional. Dress up your auction tables with lighting and drapery for an unforgettable look and feel.
-											</p>
-										</div>
-										<!-- /.service-item -->
-									</div>
-									<!-- /.col-md-3 -->
-								</div>
-								<!-- /.row -->
-							</div>
-							<!-- /.container -->
-						</div>
-						<!-- /#services -->
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- End aboutus -->
+		<!-- End Services -->
 
 		<!-- Testimonial -->
 		<div id="testimonials" class="testimonials">
@@ -1007,9 +1007,8 @@
 
 		<div class="clearfix"></div>
 
-		<!-- Footer -->
+		<!-- Social Media Icons -->
 		<div class="footer" >
-
 			<div class="container">
 				<div class="row">
 					<div class="text-center">
@@ -1036,7 +1035,15 @@
 					</div>
 				</div>
 			</div>
-
-		</div><!-- End Footer -->
+		</div><!-- End Social Media Icons -->
+		<div class="footer_bottom_content" id="footer">
+			<div class="container">
+				<div class="row">
+					<p class="text-muted">
+						Copyright ©2014 Seattle AV Services, Inc.
+					</p>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
