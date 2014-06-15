@@ -554,6 +554,6 @@ ul.project-gallery  li  a img:hover {
 
 @media (max-width: 350px) {
 	.navbar-brand img {
-		height: 120px;
+		height: 80px;
 	}
 }
