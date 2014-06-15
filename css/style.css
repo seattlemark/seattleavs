@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 /* ------ aboutus & Slogan ------ */
 .aboutus {
 	margin-top: 130px;
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 1px solid #929292;
 	min-height: 230px;
 }
 
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 	font-weight: normal;
 	font-size: 42px;
 	margin: 60px 0;
-	color: #333333;
+	color: #929292;
 }
 
 .service-item {
@@ -99,8 +99,8 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .btn-orange {
-	background-color: #d35400;
-	border-bottom: 2px solid #d35400;
+	background-color: #FF9900;
+	border-bottom: 2px solid #FF9900;
 	border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
-	background-color: #d35400;
+	background-color: #FF9900;
 	color: #ffffff;
 }
 
@@ -117,27 +117,27 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-	background-color: #d35400;
-	color: #fff;
+	background-color: #FF9900;
+	color: #ffffff;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	background-color: #d35400;
-	color: #fff;
+	background-color: #FF9900;
+	color: #ffffff;
 }
 
 .nav > li > a {
 	color: #929292;
 }
 .navbar-default {
-	background-color: #fff;
+	background-color: #ffffff;
 	border: none;
 	box-shadow: 0 6px 6px -6px grey;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color: #d35400;
-	color: #fff;
+	background-color: #FF9900;
+	color: #ffffff;
 }
 
 .navbar {
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .savs_hr {
-	border: 1px solid #fff;
+	border: 1px solid #ffffff;
 	width: 39.5%;
 	float: left;
 }
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 	background-size: cover;
 	border-style: solid;
 	border-width: 4px;
-	border-color: #d35400;
+	border-color: #ff9900;
 	position: relative;
 	overflow: hidden;
 	cursor: pointer;
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 
 .project-overlay {
 	background: rgba(0,0,0,.75);
-	border: 2px solid #d35400;
+	border: 2px solid #ff9900;
 	visibility: hidden;
 	position: absolute;
 	text-align: center;
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .txt_orange {
-	color: #d35400;
+	color: #FF9900;
 }
 
 .txt_slogan {
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .testify {
-	color: #FFFF33;
+	color: #ffff33;
 	font-size: 14px;
 	float: right;
 }
@@ -355,7 +355,7 @@ a:hover .social-icon-gplus {
 }
 
 ul.project-gallery  li  a img:hover {
-	border: 3px solid #d35400;
+	border: 3px solid #ff9900;
 }
 
 .link_orange:hover {
@@ -524,7 +524,7 @@ ul.project-gallery  li  a img:hover {
 }
 
 #nav-bar ul li:hover {
-	background-color: #d35400;
+	background-color: #ff9900;
 }
 
 #nav-bar ul li:hover > ul {
