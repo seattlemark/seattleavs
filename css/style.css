@@ -547,10 +547,6 @@ ul.project-gallery  li  a img:hover {
 	}
 }
 
-.go-left {
-	text-align:left
-}
-
 .space {
 	margin-top:20px;
 	
@@ -558,10 +554,6 @@ ul.project-gallery  li  a img:hover {
 
 @media (max-width: 350px) {
 	.navbar-brand img {
-		height: 80px;
-	}
-	
-	.go-left {
-		text-align: center;
+		height: 110px;
 	}
 }
