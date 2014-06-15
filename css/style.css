@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .btn-orange {
-	background-color: #ff7600;
+	background-color: #d35400;
 	border-bottom: 2px solid #d35400;
 	border-radius: 0;
 	-moz-border-radius: 0;
@@ -117,12 +117,12 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-	background-color: #ff7600;
+	background-color: #d35400;
 	color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	background-color: #ff7600;
+	background-color: #d35400;
 	color: #fff;
 }
 
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color: #ff7600;
+	background-color: #d35400;
 	color: #fff;
 }
 
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 	background-size: cover;
 	border-style: solid;
 	border-width: 4px;
-	border-color: #E67E22;
+	border-color: #d35400;
 	position: relative;
 	overflow: hidden;
 	cursor: pointer;
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 
 .project-overlay {
 	background: rgba(0,0,0,.75);
-	border: 2px solid #ff7600;
+	border: 2px solid #d35400;
 	visibility: hidden;
 	position: absolute;
 	text-align: center;
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .txt_orange {
-	color: #e67e22;
+	color: #d35400;
 }
 
 .txt_slogan {
@@ -271,12 +271,12 @@ h1, h2, h3, h4, h5, h6, span, p {
 	padding-right: 15px
 }
 
-.tweet_txt {
+.test_txt {
 	border-left: 2px solid #ffffff;
 	min-height: 160px;
 }
 
-.twitter_user {
+.testify {
 	color: #FFFF33;
 	font-size: 14px;
 	float: right;
@@ -355,7 +355,7 @@ a:hover .social-icon-gplus {
 }
 
 ul.project-gallery  li  a img:hover {
-	border: 3px solid #ff7600;
+	border: 3px solid #d35400;
 }
 
 .link_orange:hover {
@@ -520,11 +520,11 @@ ul.project-gallery  li  a img:hover {
 
 #nav-bar ul li:hover > a {
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 
 #nav-bar ul li:hover {
-	background-color: #ff7600;
+	background-color: #d35400;
 }
 
 #nav-bar ul li:hover > ul {
@@ -542,4 +542,9 @@ ul.project-gallery  li  a img:hover {
 	#nav-bar ul li span {
 		display: none;
 	}
+}
+
+.space {
+	margin-top:20px;
+	
 }
